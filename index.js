@@ -1,1 +1,7 @@
-console.log('start')
+console.log('преобразования типов')
+console.log([] + null + 1)
+console.log("foo" + + "bar")
+console.log(!!"false" == !!"true")
+console.log("a" && "" && "c")
+console.log("a" && "" || "c")
+console.log("" ?? "a")
